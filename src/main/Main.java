@@ -32,6 +32,8 @@ public class Main {
                 break;
             case 5:
 
+                starNewGame();
+
                 break;
         }
 
@@ -51,5 +53,12 @@ public class Main {
         return sc.nextInt();
 
     }
+
+    public static void starNewGame(){
+        System.out.println("digit the number of colums");
+        sc.nextInt();
+
+    }
+
 
 }
