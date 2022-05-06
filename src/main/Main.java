@@ -7,7 +7,13 @@ import model.Game;
 public class Main {
     public static Scanner sc = new Scanner(System.in);
 
+    public static Board board = new board();
+
+
+
+
     public static void main(String[] args) {
+
 
         int op = -1;
         while (op != 0) {
@@ -57,6 +63,13 @@ public class Main {
     public static void starNewGame(){
         System.out.println("digit the number of colums");
         sc.nextInt();
+        System.out.println("digit the number of raw");
+        sc.nextInt();
+
+
+
+
+
 
     }
 

@@ -5,6 +5,12 @@ public class Board {
     private Tile first;
     private Tile last;
 
+
+
+    public void createList(){
+        createList(first,last);
+    }
+
     public void createList(Tile current, Tile newTile) {
         if (current.getNextTiles() != null) {
             return;
